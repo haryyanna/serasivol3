@@ -1,0 +1,403 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Website Official SERASI Vol. 3</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+         <!-- Welcome Modal Start -->
+        <div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content text-center wow zoomIn" data-wow-delay="0.1s">
+              <div class="modal-body p-4">
+                <img src="logo gelap.png" alt="SERASI Vol. 3" class="img-fluid mb-3" style="max-width:200px;">
+                <h5 class="modal-title mb-2" id="welcomeModalLabel">Selamat Datang di Website Official SERASI Vol. 3</h5>
+                <p class="mb-3">Temukan informasi kegiatan, dokumentasi, dan berkas SERASI Vol. 3.</p>
+                <button type="button" class="btn btn-primary rounded-pill px-4" id="enterSiteBtn">Masuk</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Welcome Modal End -->
+
+
+        <!-- Navbar Start -->
+        <!-- Make header fixed to top -->
+        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow fixed-top p-0">
+            <a href="index.html" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
+                <img src="logo gelap.png" alt="SERASI Vol. 3" class="me-3" style="width:60px;height:60px;">
+                <h1 class="m-0 text-primary">SERASI Vol. 3</h1>
+            </a>
+
+        </nav>
+        <!-- Navbar End -->
+
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0">
+            <div class="owl-carousel header-carousel position-relative">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="cover web.jpeg" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(43, 57, 64, .5);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-3 text-white animated slideInDown mb-4">SERASI Vol. 3</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">Selebrasi, Kreasi, dan Inovasi Genre Gianyar.</p>
+                                    <a href="https://forms.gle/HfWLN5uzw8T4eutd7" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Pendaftaran</a>
+                                    <a href="https://drive.google.com/file/d/1GBCjaAcoG8qiL3S1C2cJuQDMp3hhvbKa/view?usp=sharing" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Panduan</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+
+
+        <!-- Intro: Logo & Description Start
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-12 col-lg-10 text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <!-- Stacked: video (center), logo, then text 
+                        <div class="video-wrapper mb-3">
+                            <video class="intro-video rounded" src="[𝐏𝐄𝐌𝐈𝐋𝐈𝐇𝐀𝐍 𝐃𝐔𝐓𝐀 𝐆𝐄𝐍𝐑𝐄 𝐆𝐈𝐀𝐍𝐘𝐀𝐑]Haloo Genrengers! Salam Genre 👌Ada hanga (1) (1).mp4" autoplay muted loop playsinline preload="metadata" poster="">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                        <!-- Custom controls: play/pause, stop, fullscreen 
+                        <div class="video-controls mb-3">
+                            <button type="button" class="btn btn-sm btn-outline-primary" id="playPauseBtn">Play</button>
+                            <button type="button" class="btn btn-sm btn-outline-primary" id="stopBtn">Stop</button>
+                            <button type="button" class="btn btn-sm btn-outline-success" id="fsBtn">Fullscreen</button>
+                        </div>
+                            -->
+                       <img src="logo gelap.png" alt="SERASI Vol. 3" class="img-fluid rounded logo-below-video mb-3" style="max-width:200px;">
+
+                        <h2 class="mb-3 wow fadeInUp" data-wow-delay="0.15s">Tentang SERASI Vol. 3</h2>
+                        <div class="about-text mx-auto">
+                        <p class="mb-3 text-justify wow fadeInUp" data-wow-delay="0.25s"><b>SERASI (SElebrasi, kReasi, Inovasi) Genre Gianyar</b> adalah ruang bagi remaja untuk menyalurkan inovasi, kreasi, dan dedikasi yang bermakna. Kegiatan ini menjadi wadah kolaborasi Forum Genre Kabupaten Gianyar bersama SLB, PIK-R/PIK-M, dan remaja untuk membangun generasi yang sehat, cerdas, berkarakter, dan berdaya guna.</p>
+
+                        <p class="mb-3 text-justify wow fadeInUp" data-wow-delay="0.35s">SERASI Vol. 3 melanjutkan semangat Forum Genre Gianyar dalam menghadirkan ruang ekspresi, edukasi, dan kolaborasi bagi remaja. Melalui kegiatan ini, remaja Gianyar diajak untuk terus berkarya, berinovasi, dan mengambil peran dalam membangun masa depan yang lebih baik.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Intro: Logo & Description End -->
+
+       <!-- Intro: Logo & Description Start 
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-12 col-lg-10 text-center wow fadeInUp" data-wow-delay="0.1s">
+                       <h2 class="mb-3 wow fadeInUp" data-wow-delay="0.15s">Sambutan Ketua Forum Genre Gianyar</h2>
+                        <h2 class="mb-3 wow fadeInUp" data-wow-delay="0.15s">SERASI Vol. 3 Genre Gianyar</h2>
+                        <img src="pp ketua.jpeg" alt="SERASI Vol. 3" class="img-fluid logo-below-video rounded-lg mb-3 shadow-sm" style="max-width:200px;">
+
+                        <div class="about-text mx-auto">
+                        <p class="mb-3 text-center wow fadeInUp" data-wow-delay="0.25s"><b>"Hidup yang tidak dipertaruhkan, tidak akan pernah dimenangkan."</b></p>
+                        <p class="mb-3 text-justify wow fadeInUp" data-wow-delay="0.25s">Dengan penuh rasa bangga, kami menyambut SERASI Vol. 3 sebagai ruang bagi remaja Gianyar untuk bertemu, berbagi gagasan, dan menampilkan karya terbaiknya.</p>
+                        <p class="mb-3 text-justify wow fadeInUp" data-wow-delay="0.25s">SERASI bukan sekadar kegiatan, melainkan bentuk kolaborasi yang mempertemukan semangat selebrasi, kreativitas, dan inovasi remaja. Setiap proses di dalamnya menjadi kesempatan untuk saling belajar, bekerja sama, dan tumbuh bersama.</p>
+                        <p class="mb-3 text-justify wow fadeInUp" data-wow-delay="0.35s">Mari jadikan SERASI Vol. 3 sebagai ruang untuk berkarya dan berkontribusi, sekaligus memperkuat peran remaja sebagai generasi yang sehat, cerdas, berkarakter, dan berdampak bagi Kabupaten Gianyar.</p>
+                        <p class="mb-3 text-justify wow fadeInUp" data-wow-delay="0.35s"><b>Ketua Forum Generasi Berencana Kabupaten Gianyar</b></p>
+                        <p class="mb-3 text-justify wow fadeInUp" data-wow-delay="0.35s"><b>- I Kadek Dwi Januardana</b></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Intro: Logo & Description End -->
+
+        <!-- Category Start -->
+        <div class="container-fluid py-5">
+            <div class="container">
+                <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Kumpulan File</h1>
+                <div class="row g-4">
+                    
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="cat-item rounded p-4" href="https://drive.google.com/file/d/1cVlwb1faz3UKFFxg2zMRGDjIw7vCaH4Q/view?usp=drivesdk">
+                            <i class="fa fa-3x fa-mail-bulk text-primary mb-4"></i>
+                            <h6 class="mb-3">TOR (Panduan)</h6>
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="https://drive.google.com/file/d/1Dk5_Z245GH0v4BpIMo2icl7c6dIJQPHM/view">
+                            <i class="fa fa-3x fa-book-reader text-primary mb-4"></i>
+                            <h6 class="mb-3">Proposal Sponsorship</h6>
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="cat-item rounded p-4" href="https://drive.google.com/drive/folders/11458wNXXqUkrj2MjAyKR3GGXJTweKv8l">
+                            <i class="fas fa-image"></i>
+                            <h6 class="mb-3">Logo</h6>
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="https://forms.gle/cF5qCNeNVFwjgQB76">
+                            <i class="fas fa-tags"></i>
+                            <h6 class="mb-3">Pembelian Merchandise</h6>
+
+                        </a>
+                    </div>  
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="https://drive.google.com/file/d/19TpFodjfraQcvmy6SvavQaKkf95Sv3qR/view?usp=drivesdk">
+                            <i class="fas fa-chalkboard"></i>
+                            <h6 class="mb-3">Virtual Background</h6>
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="https://docs.google.com/forms/u/0/d/e/1FAIpQLScT__IG1G0GFeT78JLXX8CqPi6iCP4oXh0bRjIxPd7MT2p04Q/closedform">
+                            <i class="bi bi-tablet-fill"></i>
+                            <h6 class="mb-3">Pengumpulan Advokasi Program Kerja</h6>
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="https://drive.google.com/file/d/1UqFtEksgqzveEOdRPr_DUvylXmQ2IiPO/view?usp=sharing">
+                            <i class="bi bi-play-btn-fill"></i>
+                            <h6 class="mb-3">Bumper Video Advokasi Program Kerja</h6>
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="https://forms.gle/A4G2QgcJrSxwJq338">
+                            <i class="bi bi-stars"></i>
+                            <h6 class="mb-3">Pengumpulan Bukti 3 Days Video Challange (DAY 1)</h6>
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="https://forms.gle/qkUR5vHkcVM4zLyA6">
+                            <i class="bi bi-stars"></i>
+                            <h6 class="mb-3">Pengumpulan Bukti 3 Days Video Challange (DAY 2)</h6>
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="https://forms.gle/GvA2wKC6ZJjP3oeFA">
+                            <i class="bi bi-stars"></i>
+                            <h6 class="mb-3">Pengumpulan Bukti 3 Days Video Challange (DAY 3)</h6>
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="bi bi-camera2"></i>
+                            <h6 class="mb-3">Ketentuan Photoshoot</h6>
+
+                        </a>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- Category End -->
+
+        <!-- Contact Person Start -->
+        <div class="container-fluid py-5">
+            <div class="container">
+                <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Contact Person</h1>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp text-center" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="https://wa.me/6281238666160">
+                            <i class="fab fa-whatsapp fa-3x text-primary mb-4" aria-hidden="true"></i>
+                            <h6 class="mb-0">Dita</h6>
+                            <p class="mb-0">+62 812-3866-6160</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp text-center" data-wow-delay="0.6s">
+                        <a class="cat-item rounded p-4" href="https://wa.me/6289697180628">
+                            <i class="fab fa-whatsapp fa-3x text-primary mb-4" aria-hidden="true"></i>
+                            <h6 class="mb-0">Citra</h6>
+                            <p class="mb-0">+62 896-9718-0628</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Person End -->
+
+
+        <div class="container-fluid py-5">
+            <div class="container">
+                <h1 class="text-center mb-4 wow fadeInUp" data-wow-delay="0.1s">Dokumentasi Kegiatan SERASI Sebelumnya</h1>
+                <p class="mb-3 text-justify wow fadeInUp" data-wow-delay="0.25s">Berikut beberapa momen kegiatan SERASI sebelumnya yang memperlihatkan semangat kolaborasi, kreativitas, dan kebersamaan remaja Genre Gianyar.</p>
+                <div class="row g-3">
+                    <div class="col-6 col-md-3">
+                        <img class="img-fluid rounded shadow-sm w-100 gallery-img" src="1.jpeg" alt="Dokumentasi SERASI 1">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img class="img-fluid rounded shadow-sm w-100 gallery-img" src="2.jpeg" alt="Dokumentasi SERASI 2">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img class="img-fluid rounded shadow-sm w-100 gallery-img" src="3.jpeg" alt="Dokumentasi SERASI 3">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img class="img-fluid rounded shadow-sm w-100 gallery-img" src="4.jpeg" alt="Dokumentasi SERASI 4">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img class="img-fluid rounded shadow-sm w-100 gallery-img" src="5.jpeg" alt="Dokumentasi SERASI 5">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img class="img-fluid rounded shadow-sm w-100 gallery-img" src="6.jpeg" alt="Dokumentasi SERASI 6">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img class="img-fluid rounded shadow-sm w-100 gallery-img" src="7.jpeg" alt="Dokumentasi SERASI 7">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img class="img-fluid rounded shadow-sm w-100 gallery-img" src="8.jpeg" alt="Dokumentasi SERASI 8">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Dokumentasi End -->
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="text-center mt-4">
+                    <h6 class="mb-2">Follow Us</h6>
+                    <div class="d-flex justify-content-center align-items-center follow-us">
+                        <a href="https://www.instagram.com/genre_gianyar?igsh=MTQ1OTMzaml0dzNy" class="me-4 social-link text-decoration-none"><i class="fab fa-instagram fa-lg text-primary me-2" aria-hidden="true"></i><span>@genre_gianyar</span></a>
+                        <a href="https://www.tiktok.com/@genre_gianyar?_r=1&_t=ZS-92nNuqOpRJZ" class="me-4 social-link text-decoration-none"><img src="tiktok-fill-svgrepo-com.svg" alt="TikTok" class="me-2 tiktok-icon" width="20" height="20" /><span>@genre_gianyar</span></a>
+                        <a href="https://youtube.com/@genregianyar?si=1jVPJR6kuV_09iss" class="social-link text-decoration-none"><i class="fab fa-youtube fa-lg text-danger me-2" aria-hidden="true"></i><span>@GenReGianyar</span></a>
+                    </div>
+                </div>
+
+                <div class="container-fluid py-3 competition-section">
+                    <div class="container">
+                        <h1 class="text-center mb-5">Semangat Berkompetisi!!!</h1>
+                    </div>
+                </div>
+            </div> <!-- container -->
+        </div> <!-- container-fluid -->
+
+
+
+
+
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4">
+                        <h5 class="text-white">Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a class="btn btn-link text-white-50" href="#">Pendaftaran</a></li>
+                            <li><a class="btn btn-link text-white-50" href="#">Panduan / TOR</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <h5 class="text-white">Ikuti Kami</h5>
+                        <div class="follow-us d-flex flex-wrap">
+                            <a href="https://www.instagram.com/genre_gianyar?igsh=MTQ1OTMzaml0dzNy" class="me-3 social-link text-decoration-none text-white-50"><i class="fab fa-instagram fa-lg text-primary me-2" aria-hidden="true"></i><span>@genre_gianyar</span></a>
+                            <a href="https://www.tiktok.com/@genre_gianyar?_r=1&_t=ZS-92nNuqOpRJZ" class="me-3 social-link text-decoration-none text-white-50"><img src="tiktok-fill-svgrepo-com.svg" alt="TikTok" class="me-2 tiktok-icon" width="20" height="20" /><span>@genre_gianyar</span></a>
+                            <a href="https://youtube.com/@genregianyar?si=1jVPJR6kuV_09iss" class="social-link text-decoration-none text-white-50"><i class="fab fa-youtube fa-lg text-danger me-2" aria-hidden="true"></i><span>@GenReGianyar</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright py-3">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">SERASI Vol. 3</a>, All Right Reserved.
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
